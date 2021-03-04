@@ -157,9 +157,9 @@ Tvrdé odkazy se často používají na šetření místem na disku:
 když najdeš dva stejné soubory (které se nebudou měnit),
 můžeš zařídit aby je systém uložil jen jednou.
 Popravdě se ale dnes *hardlinky* příliš nepoužívají.
-Ale je dobré vědět, že existuji.
+Ale je dobré vědět, že existují.
 
-Souborový systém dokonce kontroluje, kolikrát je daný soubor v tomto do systému,
+Souborový systém dokonce kontroluje, kolikrát je daný soubor v tomto systému,
 a to pomocí čísla `st_nlink`, na které se můžeš podívat ve druhém sloupci `ls -l`.
 
 ```console
@@ -275,7 +275,7 @@ V některých (často historických) verzích UNIXu byly některé příkazy v�
 Autoři Fedory si ale myslí, že tohle rozdělení je zbytečné a všechny programy
 by měly být na stejném místě.
 
-Respektive na obou místech, aby staré programy fungoivaly dál, ať už
+Respektive na obou místech, aby staré programy fungovaly dál, ať už
 předpokládají `/bin/` nebo `/usr/bin`.
 
 Jak tenhle problém vyřešit?
@@ -297,7 +297,7 @@ $ ls -l NIC
 lrwxrwxrwx. 1 petr petr  7  9. lis 15.22 NIC -> nic.txt
 ```
 
-Když takový soubor budeš chtít otevřit, systém řekne, že takový soubor neexistuje:
+Když takový soubor budeš chtít otevřít, systém řekne, že takový soubor neexistuje:
 
 ```console
 $ cat NIC
